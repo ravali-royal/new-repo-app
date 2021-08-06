@@ -25,5 +25,6 @@ public class PasswordService {
 		System.out.println("Encode ::"+encodePwd);
 		String decode = passwordService.decode(encodePwd);
 		System.out.println("decode ::"+decode);
+		System.out.println("this is jenkins method");
 	}
 }
